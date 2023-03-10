@@ -4,12 +4,17 @@
 @import "components/header.css";
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+
 /* Screens */
 @import "screens/login-form.css";
+@import "screens/friends.css";
 
 body {
   font-family: system-ui, -apple-system,'Open Sans', 'Helvetica Neue', sans-serif;
   height: 100vh;
+  color: #2e363e;;
 }
 
 
