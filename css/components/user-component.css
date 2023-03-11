@@ -1,4 +1,8 @@
 
+.user-component {
+  justify-content: space-between;
+}
+
 .user-component,
 .user-component__column:first-child {
   display: flex;
@@ -8,8 +12,9 @@
 .user-component__avatar {
   width: 70px;
   height: 70px;
-  border-radius: 40%;
+  border-radius: 30%;
   margin-right: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .user-component__title {
@@ -20,5 +25,25 @@
 .user-component__subtitle {
   margin-top: 8px;
   font-size: 17px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+}
+
+.user-component__avatar--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+
+}
+
+.user-component__title--not-bold {
+  font-weight: 400;
+}
+
+.user-component__column:last-child {
   color: rgba(0, 0, 0, 0.5);
 }
